@@ -432,8 +432,26 @@
 		.wp-block-image {
 			margin: 0 0 1em
 		}
+
+		.wp-block-navigation__container {
+			width: 100%;
+		}
+
+		.wp-block-navigation-item {
+			width: 100%;
+			display: flex !important;
+			flex-direction: row !important;
+			align-items: center !important;
+			justify-content: start !important;
+			border-bottom: #000000 solid 1px;
+		}
+
+		.wp-block-navigation-item:hover {
+			color: #0EAD63 !important;
+			border-bottom: #0EAD63 solid 1px;
+		}
 	</style>
-	<style id="wp-block-navigation-link-inline-css">
+	<!-- <style id="wp-block-navigation-link-inline-css">
 		.wp-block-navigation .wp-block-navigation-item__label {
 			overflow-wrap: break-word
 		}
@@ -441,7 +459,7 @@
 		.wp-block-navigation .wp-block-navigation-item__description {
 			display: none
 		}
-	</style>
+	</style> -->
 	<link href="https://wordpress.org/themes/wp-includes/blocks/navigation/style.min.css?ver=6.4.2"
 		id="wp-block-navigation-css" media="all" rel="stylesheet" />
 		<!-- https://wordpress.org/themes/wp-includes/css/dashicons.min.css?ver=6.5-alpha-57241 -->
